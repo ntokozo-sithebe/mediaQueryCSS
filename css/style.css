@@ -5,3 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.row{
+    background-color: darkgrey;
+}
+img[alt='nature1']{
+    width: 20rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (width < 325px) {
+    #secondRow img {
+        width: 100%;
+    }
+}
